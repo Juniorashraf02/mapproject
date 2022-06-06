@@ -12,7 +12,6 @@ body {
     width: 30%;
     border-radius: 10px;
     margin: 0;
-    /* margin: 20px 20px; */
 }
 
 .pic-two {
@@ -20,7 +19,6 @@ body {
     height: 30%;
     width: 30%;
     border-radius: 10px;
-    /* margin: 20px 20px; */
 }
 
 .heading {
@@ -56,6 +54,44 @@ img {
 
 
 
+
+nav{
+    height: 80px;
+    width: 50%;
+    background-color: #e6e6e6;
+    border-radius: 50px;
+    margin: auto;
+    margin-top: 50px;
+    box-shadow: 2px 1px 10px;
+}
+
+#step-one img{
+    height: 35px;
+    width: 40px;
+}
+
+.step-one-icons{
+    display: flex;
+    justify-content: center;
+    gap: 7%;
+}
+
+.flag-details{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 50px;
+}
+
+#step-one .flag{
+    width: 40%;
+    height: 50%;
+}
+
+
+
+
+
+/* for mobile responsiveness */
 @media screen and (max-width: 768px) {
 
     .icons-collection {
@@ -67,5 +103,8 @@ img {
 
     .icons {
         padding-left: 0px;
+    }
+    nav{
+        width: 100%;
     }
 }
