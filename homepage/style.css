@@ -14,26 +14,32 @@ body {
     margin: 0;
     /* margin: 20px 20px; */
 }
+
 .pic-two {
-    margin:0;
+    margin: 0;
     height: 30%;
     width: 30%;
     border-radius: 10px;
     /* margin: 20px 20px; */
 }
 
-.heading{
+.heading {
     width: 25%;
     height: 25%;
 }
 
-a{
+a {
     color: white;
 }
 
-.icons {
+.icons-collection {
     text-align: center;
     margin-top: 30px;
+    padding-right: 50px;
+}
+
+.icons {
+    padding-left: 90px;
 }
 
 img {
@@ -46,4 +52,20 @@ img {
 .bottom-tittle {
     text-align: center;
     margin-top: 80px;
+}
+
+
+
+@media screen and (max-width: 768px) {
+
+    .icons-collection {
+        text-align: center;
+        margin-top: 30px;
+        padding-right: 0px;
+
+    }
+
+    .icons {
+        padding-left: 0px;
+    }
 }
