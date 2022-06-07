@@ -64,38 +64,110 @@
 
         <div class="flag-details">
             <div id="flag-text" class="flag-text">
-                <p> 
-                    <span class="text-gray">4653</span> ​: <b>رقم المنظم</b>  <span class="blue-dot"></span> 
+                <p>
+                    <span class="text-gray">4653</span> ​: <b>رقم المنظم</b> <span class="blue-dot"></span>
                 </p> <br>
-                <p> 
-                    <b>اسم المنظم</b> :<span class="text-gray"> أسعد  تونجار </span> ​ <span class="orange-dot"></span> 
+                <p>
+                    <b>اسم المنظم</b> :<span class="text-gray"> أسعد تونجار </span> ​ <span class="orange-dot"></span>
                 </p> <br>
-                <p> 
-                    <b>اسم الشركة </b> :<span class="text-gray"> بيضا بير </span> ​ <span class="green-dot"></span> 
+                <p>
+                    <b>اسم الشركة </b> :<span class="text-gray"> بيضا بير </span> ​ <span class="green-dot"></span>
                 </p> <br>
-               
-                <p> 
-                    <span class="text-gray">2039</span> ​: <b>عدد الحجاج الكلي</b>  <span class="yellow-dot"></span> 
+
+                <p>
+                    <span class="text-gray">2039</span> ​: <b>عدد الحجاج الكلي</b> <span class="yellow-dot"></span>
                 </p> <br>
-                <p> 
-                    <span class="text-gray">148</span> ​: <b>عدد الحجاج الواصلين</b>  <span class="cyan-dot"></span> 
+                <p>
+                    <span class="text-gray">148</span> ​: <b>عدد الحجاج الواصلين</b> <span class="cyan-dot"></span>
                 </p> <br>
-                <p> 
-                    <span class="text-gray">1093</span> ​: <b>عدد الحجاج المتبقين ببلدهم ولم يصلوا حتى تلك اللحظة</b>  <span class="pink-dot"></span> 
+                <p>
+                    <span class="text-gray">1093</span> ​: <b>عدد الحجاج المتبقين ببلدهم ولم يصلوا حتى تلك اللحظة</b>
+                    <span class="pink-dot"></span>
                 </p> <br>
-                <p> 
-                    <span class="text-gray"></span> ​<b>السكن بمكة​</b>  <span class="light-green-dot"></span> 
+                <p>
+                    <span class="text-gray"></span> ​<b>السكن بمكة​</b> <span class="light-green-dot"></span>
                 </p> <br>
-                <p> 
-                    <span class="text-gray"></span> ​ <b>الوقائع</b>  <span class="light-cyan-dot"></span> 
+                <p>
+                    <span class="text-gray"></span> ​ <b>الوقائع</b> <span class="light-cyan-dot"></span>
                 </p> <br>
             </div>
             <div id="flag">
                 <img class="flag" src="../images/flag.png" alt="">
             </div>
-        </div>    
+        </div>
     </section>
     <!-- section 02 ends -->
+
+
+
+
+
+    <!-- section 03 starts -->
+    <section id="section-three">
+        <nav class="navbar">
+            <div class="nav-icon-collection">
+                <img class="nav-icon" src="../images/worldicon.png" alt="">
+                <img class="nav-icon" src="../images/customerBlack.png" alt="">
+                <img class="nav-icon" src="../images/kpiblack.png" alt="">
+                <img class="nav-icon" src="../images/graphblack.png" alt="">
+            </div>
+        </nav>
+
+        <div class="flag-with-map">
+            <div id="map" class="map">
+                <div id="googleMap" style="width:100%;height:400px;"></div>
+
+                <script>
+                    function myMap() {
+                        var mapProp = {
+                            center: new google.maps.LatLng(51.508742, -0.120850),
+                            zoom: 15,
+                        };
+                        var map = new google.maps.Map(document.getElementById("googleMap"), mapProp);
+                    }
+                </script>
+
+                <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDdnUI5oF_hX399nhFPaVz3D-jxkv0ullM&callback=myMap"></script>
+            </div>
+            <div id="flag">
+                <img class="flag" src="../images/flag.png" alt="">
+            </div>
+        </div>
+    </section>
+    <!-- section 03 ends -->
+
+
+
+
+    <!-- section 4 starts -->
+    <section id="section-four">
+        <nav class="navbar">
+            <div class="nav-icon-collection">
+                <img class="nav-icon" src="../images/worldicon.png" alt="">
+                <img class="nav-icon" src="../images/customerBlack.png" alt="">
+                <img class="nav-icon" src="../images/kpiblack.png" alt="">
+                <img class="nav-icon" src="../images/graphblack.png" alt="">
+            </div>
+        </nav>
+
+        <div id="map" class="map">
+            <div id="googleMap" style="width:100%;height:400px;"></div>
+
+            <script>
+                function myMap() {
+                    var mapProp = {
+                        center: new google.maps.LatLng(51.508742, -0.120850),
+                        zoom: 15,
+                    };
+                    var map = new google.maps.Map(document.getElementById("googleMap"), mapProp);
+                }
+            </script>
+
+            <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDdnUI5oF_hX399nhFPaVz3D-jxkv0ullM&callback=myMap"></script>
+        </div>
+    </section>
+    <!-- section 4 ends -->
+
 
 
 
