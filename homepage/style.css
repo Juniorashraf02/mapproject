@@ -7,6 +7,8 @@ body {
     background-color: #FBFBFD;
 }
 
+
+/* ----------------------------------section 01 starts---------------------------------------- ---------------------------------------------------------------------------------------------*/
 .pic-one {
     height: 30%;
     width: 30%;
@@ -52,10 +54,7 @@ img {
     margin-top: 80px;
 }
 
-
-
-
-nav{
+nav {
     height: 80px;
     width: 50%;
     background-color: #e6e6e6;
@@ -65,27 +64,136 @@ nav{
     box-shadow: 2px 1px 10px;
 }
 
-#step-one img{
+#step-one img {
     height: 35px;
     width: 40px;
 }
 
-.step-one-icons{
+.step-one-icons {
     display: flex;
     justify-content: center;
     gap: 7%;
 }
 
-.flag-details{
+
+
+/* ----------------------------------section 01 ends---------------------------------------- ---------------------------------------------------------------------------------------------*/
+
+
+
+/* ----------------------------------section 02 starts---------------------------------------- ---------------------------------------------------------------------------------------------*/
+#section-two{
+    margin-top: 15%;
+}
+.nav-icon-collection {
+    display: flex;
+    justify-content: center;
+    gap: 8%;
+    height: 100%;
+}
+
+.nav-icon {
+    width: auto;
+    height: 40%;
+}
+
+.flag-details {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     margin-top: 50px;
+    gap: 2%;
+    align-items: center;
 }
 
-#step-one .flag{
+.flag {
     width: 40%;
     height: 50%;
 }
+.flag-text {
+    text-align: right;
+}
+.text-gray{
+    color: gray;
+}
+
+.blue-dot {
+    height: 15px;
+    width: 15px;
+    background-color: blue;
+    border-radius: 50%;
+    display: inline-block;
+    margin-left: 20px;
+}
+.yellow-dot {
+    height: 15px;
+    width: 15px;
+    background-color: yellow;
+    border-radius: 50%;
+    display: inline-block;
+    margin-left: 20px;
+}
+.green-dot {
+    height: 15px;
+    width: 15px;
+    background-color: green;
+    border-radius: 50%;
+    display: inline-block;
+    margin-left: 20px;
+}
+.orange-dot {
+    height: 15px;
+    width: 15px;
+    background-color: orange;
+    border-radius: 50%;
+    display: inline-block;
+    margin-left: 20px;
+}
+.pink-dot {
+    height: 15px;
+    width: 15px;
+    background-color: pink;
+    border-radius: 50%;
+    display: inline-block;
+    margin-left: 20px;
+}
+.cyan-dot {
+    height: 15px;
+    width: 15px;
+    background-color: cyan;
+    border-radius: 50%;
+    display: inline-block;
+    margin-left: 20px;
+}
+.light-blue-dot {
+    height: 15px;
+    width: 15px;
+    background-color: lightblue;
+    border-radius: 50%;
+    display: inline-block;
+    margin-left: 20px;
+}
+.light-cyan-dot {
+    height: 15px;
+    width: 15px;
+    background-color: lightcyan;
+    border-radius: 50%;
+    display: inline-block;
+    margin-left: 20px;
+}
+.light-green-dot {
+    height: 15px;
+    width: 15px;
+    background-color: lightgreen;
+    border-radius: 50%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+
+
+/* ----------------------------------section 02 ends---------------------------------------- ---------------------------------------------------------------------------------------------*/
+
+
 
 
 
@@ -104,7 +212,27 @@ nav{
     .icons {
         padding-left: 0px;
     }
-    nav{
+
+    nav {
         width: 100%;
+    }
+    .nav-icon-collection {
+        display: flex;
+        justify-content: center;
+        gap: 2%;
+        height: 100%;
+    }
+
+    .flag-details {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        margin-top: 50px;
+        gap: 2%;
+    }
+    div#flag {order:1}
+    div#flag-text {order:2}
+    .flag {
+        width: 90%;
+        height: 50%;
     }
 }

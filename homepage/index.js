@@ -4,20 +4,12 @@ document.getElementById('world-icon').addEventListener('click', function (e) {
     document.getElementById('step-one').innerHTML = `
         <nav>
             <div class="step-one-icons">
-            <img class="size" src="../images/worldicon.png" alt="">
-            <img class="size" src="../images/customerBlack.png" alt="">
-            <img class="size" src="../images/kpiblack.png" alt="">
-            <img class="size" src="../images/graphblack.png" alt="">
+            <img src="../images/worldicon.png" alt="">
+            <img src="../images/customerBlack.png" alt="">
+            <img src="../images/kpiblack.png" alt="">
+            <img src="../images/graphblack.png" alt="">
             </div>
         </nav>
-
-        <div class="flag-details">
-           <div>
-               
-           </div>
-           <div>
-               <img class="flag" src="../images/flag.png" alt="">
-           </div>
        </div>
 
     `
