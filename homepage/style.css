@@ -82,9 +82,10 @@ nav {
 
 
 /* ----------------------------------section 02 starts---------------------------------------- ---------------------------------------------------------------------------------------------*/
-#section-two{
-    margin-top: 15%;
+#section-two {
+    margin-top: 20%;
 }
+
 .nav-icon-collection {
     display: flex;
     justify-content: center;
@@ -109,10 +110,12 @@ nav {
     width: 40%;
     height: 50%;
 }
+
 .flag-text {
     text-align: right;
 }
-.text-gray{
+
+.text-gray {
     color: gray;
 }
 
@@ -124,6 +127,7 @@ nav {
     display: inline-block;
     margin-left: 20px;
 }
+
 .yellow-dot {
     height: 15px;
     width: 15px;
@@ -132,6 +136,7 @@ nav {
     display: inline-block;
     margin-left: 20px;
 }
+
 .green-dot {
     height: 15px;
     width: 15px;
@@ -140,6 +145,7 @@ nav {
     display: inline-block;
     margin-left: 20px;
 }
+
 .orange-dot {
     height: 15px;
     width: 15px;
@@ -148,6 +154,7 @@ nav {
     display: inline-block;
     margin-left: 20px;
 }
+
 .pink-dot {
     height: 15px;
     width: 15px;
@@ -156,6 +163,7 @@ nav {
     display: inline-block;
     margin-left: 20px;
 }
+
 .cyan-dot {
     height: 15px;
     width: 15px;
@@ -164,6 +172,7 @@ nav {
     display: inline-block;
     margin-left: 20px;
 }
+
 .light-blue-dot {
     height: 15px;
     width: 15px;
@@ -172,6 +181,7 @@ nav {
     display: inline-block;
     margin-left: 20px;
 }
+
 .light-cyan-dot {
     height: 15px;
     width: 15px;
@@ -180,6 +190,7 @@ nav {
     display: inline-block;
     margin-left: 20px;
 }
+
 .light-green-dot {
     height: 15px;
     width: 15px;
@@ -196,13 +207,15 @@ nav {
 
 
 /* ----------------------------------section 03 starts---------------------------------------- ---------------------------------------------------------------------------------------------*/
-#section-three{
-    margin-top: 15%;
+#section-three {
+    margin-top: 20%;
 }
-.navbar{
+
+.navbar {
     margin-bottom: 5%;
 }
-.flag-with-map{
+
+.flag-with-map {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
@@ -220,10 +233,70 @@ nav {
 
 
 /* ----------------------------------section 04 starts---------------------------------------- ---------------------------------------------------------------------------------------------*/
-#section-four{
+#section-four {
     margin-top: 15%;
 }
+
 /* ----------------------------------section 04 ends---------------------------------------- ---------------------------------------------------------------------------------------------*/
+
+
+
+/* ----------------------------------section 06 starts---------------------------------------- ---------------------------------------------------------------------------------------------*/
+#section-six {
+    margin-top: 100px;
+}
+
+.flag-with-text {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    gap: 0%;
+    margin: auto;
+    width: 50%;
+
+}
+
+.singleFlag {
+    width: 50%;
+    height: 80%;
+    margin: auto;
+}
+
+.rectangle {
+    border: 1px solid black;
+    max-width: fit-content;
+    padding: 5px 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.dot-with-text {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    gap: 10%;
+    margin-top: 50px;
+    margin-right: 20%;
+
+}
+
+.flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+}
+
+/* ----------------------------------section 06 ends---------------------------------------- ---------------------------------------------------------------------------------------------*/
+
+
+
+
+
+
+
+
 
 
 /* for mobile responsiveness */
@@ -243,11 +316,17 @@ nav {
     nav {
         width: 100%;
     }
+
     .nav-icon-collection {
         display: flex;
         justify-content: center;
         gap: 2%;
         height: 100%;
+    }
+    .step-one-icons {
+        display: flex;
+        justify-content: center;
+        gap: 2%;
     }
 
     .flag-details {
@@ -256,23 +335,56 @@ nav {
         margin-top: 50px;
         gap: 2%;
     }
-    div#flag {order:1}
-    div#flag-text {order:2}
+
+    div#flag {
+        order: 1
+    }
+
+    div#flag-text {
+        order: 2
+    }
+
     .flag {
         width: 90%;
         height: 50%;
     }
 
-    .flag-with-map{
+    .flag-with-map {
         display: grid;
-        grid-template-columns: repeat(1,1fr);
+        grid-template-columns: repeat(1, 1fr);
         align-items: center;
     }
-    div#flag {order:1}
-    div#map{order:2}
+
+    div#flag {
+        order: 1
+    }
+
+    div#map {
+        order: 2
+    }
+
     .flag {
         width: 90%;
         height: 50%;
+    }
+
+    /* section 6 */
+    .dot-with-text {
+        display: flex;
+        justify-items: center;
+        align-items: center;
+        /* gap: 10%; */
+        margin-top: 50px;
+        /* margin-right: 20%; */
+    
+    }
+    .rectangle {
+        border: 1px solid black;
+        max-width: fit-content;
+        padding: 2px 2px;
+        margin-left: 0;
+        margin-bottom: 10px;
+        margin-top: 10px;
     }
 
 }

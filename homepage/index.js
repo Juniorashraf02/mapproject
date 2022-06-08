@@ -68,3 +68,9 @@ document.getElementById('chart-icon').addEventListener('click', function (e) {
         </nav>
     `
 });
+
+
+
+
+// section 5 
+
