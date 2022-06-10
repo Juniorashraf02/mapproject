@@ -184,125 +184,8 @@
                 <img class="nav-icon" src="../images/graphblack.png" alt="">
             </div>
         </nav>
-        <div id='myChart'><a class="zc-ref" href="https://www.zingchart.com/">Charts by ZingChart</a></div>
-  <script>
-    ZC.LICENSE = ["569d52cefae586f634c54f86dc99e6a9", "b55b025e438fa8a98e32482b5f768ff5"];
-    window.feed = function(callback) {
-      var tick = {};
-      tick.plot0 = Math.ceil(350 + (Math.random() * 500));
-      callback(JSON.stringify(tick));
-    };
+        
  
-    var myConfig = {
-      type: "gauge",
-      globals: {
-        fontSize: 25
-      },
-      plotarea: {
-        marginTop: 80
-      },
-      plot: {
-        size: '100%',
-        valueBox: {
-          placement: 'center',
-          text: '%v', //default
-          fontSize: 35,
-          rules: [{
-              rule: '%v >= 700',
-              text: '%v<br>EXCELLENT'
-            },
-            {
-              rule: '%v < 700 && %v > 640',
-              text: '%v<br>Good'
-            },
-            {
-              rule: '%v < 640 && %v > 580',
-              text: '%v<br>Fair'
-            },
-            {
-              rule: '%v <  580',
-              text: '%v<br>Bad'
-            }
-          ]
-        }
-      },
-      tooltip: {
-        borderRadius: 5
-      },
-      scaleR: {
-        aperture: 180,
-        minValue: 300,
-        maxValue: 850,
-        step: 50,
-        center: {
-          visible: false
-        },
-        tick: {
-          visible: false
-        },
-        item: {
-          offsetR: 0,
-          rules: [{
-            rule: '%i == 9',
-            offsetX: 15
-          }]
-        },
-        labels: ['100', '200', '300', '400', '500', '600', '700', '800', '900', '1000', '1200', '1400'],
-        ring: {
-          size: 50,
-          rules: [{
-              rule: '%v <= 580',
-              backgroundColor: '#E53935'
-            },
-            {
-              rule: '%v > 580 && %v < 640',
-              backgroundColor: '#EF5350'
-            },
-            {
-              rule: '%v >= 640 && %v < 700',
-              backgroundColor: '#FFA726'
-            },
-            {
-              rule: '%v >= 700',
-              backgroundColor: '#29B6F6'
-            }
-          ]
-        }
-      },
-      refresh: {
-        type: "feed",
-        transport: "js",
-        url: "feed()",
-        interval: 1500,
-        resetTimeout: 1000
-      },
-      series: [{
-        values: [755], // starting value
-        backgroundColor: 'black',
-        indicator: [10, 10, 10, 10, 0.75],
-        animation: {
-          effect: 2,
-          method: 1,
-          sequence: 4,
-          speed: 900
-        },
-      }]
-    };
- 
-    zingchart.render({
-      id: 'myChart',
-      data: myConfig,
-      height: 500,
-      width: '100%'
-    });
-  </script>
-
-  <div class="chart-with-text">
-      <div>
-          <img src="" alt="">
-          <p></p>
-      </div>
-  </div>
     </section>
     <!-- section 5 ends -->
 
@@ -335,6 +218,65 @@
         </div>
         </section>
     <!-- section 6 ends -->
+
+    <!-- section 7 starts -->
+    <section>
+
+      <nav class="navbar">
+        <div class="nav-icon-collection">
+            <img class="nav-icon" src="../images/worldicon.png" alt="">
+            <img class="nav-icon" src="../images/customerBlack.png" alt="">
+            <img class="nav-icon" src="../images/kpiblack.png" alt="">
+            <img class="nav-icon" src="../images/graphblack.png" alt="">
+        </div>
+    </nav>
+    </section>
+    <!-- section 7 ends -->
+
+    <!-- section 8 starts -->
+    <section>
+
+      <nav class="navbar">
+        <div class="nav-icon-collection">
+            <img class="nav-icon" src="../images/worldicon.png" alt="">
+            <img class="nav-icon" src="../images/customerBlack.png" alt="">
+            <img class="nav-icon" src="../images/kpiblack.png" alt="">
+            <img class="nav-icon" src="../images/graphblack.png" alt="">
+        </div>
+    </nav>
+    </section>
+    <!-- section 8 ends -->
+
+
+    <!-- section 9 starts -->
+    <section>
+
+      <nav class="navbar">
+        <div class="nav-icon-collection">
+            <img class="nav-icon" src="../images/worldicon.png" alt="">
+            <img class="nav-icon" src="../images/customerBlack.png" alt="">
+            <img class="nav-icon" src="../images/kpiblack.png" alt="">
+            <img class="nav-icon" src="../images/graphblack.png" alt="">
+        </div>
+    </nav>
+    </section>
+    <!-- section 9 ends -->
+
+
+
+    <!-- section 10 starts -->
+    <section>
+
+      <nav class="navbar">
+        <div class="nav-icon-collection">
+            <img class="nav-icon" src="../images/worldicon.png" alt="">
+            <img class="nav-icon" src="../images/customerBlack.png" alt="">
+            <img class="nav-icon" src="../images/kpiblack.png" alt="">
+            <img class="nav-icon" src="../images/graphblack.png" alt="">
+        </div>
+    </nav>
+    </section>
+    <!-- section 10 ends -->
 
 
 
