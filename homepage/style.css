@@ -7,6 +7,28 @@ body {
     background-color: #FBFBFD;
 }
 
+nav {
+    height: 80px;
+    width: 50%;
+    background-color: #e6e6e6;
+    border-radius: 50px;
+    margin: auto;
+    margin-top: 50px;
+    box-shadow: 2px 1px 10px;
+}
+
+.nav-icon-collection {
+    display: flex;
+    justify-content: center;
+    gap: 8%;
+    height: 100%;
+}
+
+.nav-icon {
+    width: auto;
+    height: 40%;
+}
+
 
 /* ----------------------------------section 01 starts---------------------------------------- ---------------------------------------------------------------------------------------------*/
 .pic-one {
@@ -54,16 +76,6 @@ img {
     margin-top: 80px;
 }
 
-nav {
-    height: 80px;
-    width: 50%;
-    background-color: #e6e6e6;
-    border-radius: 50px;
-    margin: auto;
-    margin-top: 50px;
-    box-shadow: 2px 1px 10px;
-}
-
 #step-one img {
     height: 35px;
     width: 40px;
@@ -75,27 +87,21 @@ nav {
     gap: 7%;
 }
 
-
-
 /* ----------------------------------section 01 ends---------------------------------------- ---------------------------------------------------------------------------------------------*/
+
+
+
+
+
+
+
+
 
 
 
 /* ----------------------------------section 02 starts---------------------------------------- ---------------------------------------------------------------------------------------------*/
 #section-two {
     margin-top: 20%;
-}
-
-.nav-icon-collection {
-    display: flex;
-    justify-content: center;
-    gap: 8%;
-    height: 100%;
-}
-
-.nav-icon {
-    width: auto;
-    height: 40%;
 }
 
 .flag-details {
@@ -200,9 +206,12 @@ nav {
     margin-left: 20px;
 }
 
-
-
 /* ----------------------------------section 02 ends---------------------------------------- ---------------------------------------------------------------------------------------------*/
+
+
+
+
+
 
 
 
@@ -221,36 +230,43 @@ nav {
     align-items: center;
 }
 
-
-
-
-
-
-
 /* ----------------------------------section 03 ends---------------------------------------- ---------------------------------------------------------------------------------------------*/
+
+
+
+
+
+
 
 
 
 
 /* ----------------------------------section 04 starts---------------------------------------- ---------------------------------------------------------------------------------------------*/
 #section-four {
-    margin-top: 15%;
+    margin-top: 50%;
 }
 
 /* ----------------------------------section 04 ends---------------------------------------- ---------------------------------------------------------------------------------------------*/
 
 
 
+
+
+
+
+
+
 /* ----------------------------------section 05 ends---------------------------------------- ---------------------------------------------------------------------------------------------*/
-.world-map{
+#section-five {
+    margin: 50% 0;
+}
+
+.world-map {
     position: relative;
     height: 100vh;
-    /* background-image: url('../images/area4.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-    min-height: 100%; */
 }
-#us-map{
+
+#northamerica-map {
     height: 50%;
     width: 25%;
     background-repeat: no-repeat;
@@ -258,7 +274,8 @@ nav {
     left: 10%;
     top: 10%;
 }
-#canada-map{
+
+#canada-map {
     height: 30%;
     width: 25%;
     background-repeat: no-repeat;
@@ -266,7 +283,8 @@ nav {
     left: 25%;
     top: 0px;
 }
-#southamerica-map{
+
+#southamerica-map {
     height: 30%;
     width: 15%;
     background-repeat: no-repeat;
@@ -274,67 +292,83 @@ nav {
     left: 28%;
     top: 50%;
 }
-#europe-map{
+
+#europe-map {
     height: 35%;
- width: 25%;
- background-repeat: no-repeat;
- position: absolute;
- left: 42%;
- top: 30%;
+    width: 25%;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 42%;
+    top: 30%;
 }
+
 #asia-map {
- height: 50%;
- width: 50%;
- background-repeat: no-repeat;
- position: absolute;
- left: 45%;
- top: 0%;
+    height: 50%;
+    width: 50%;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 45%;
+    top: 0%;
 }
-#australia-map{
+
+#australia-map {
     height: 20%;
- width: 20%;
- background-repeat: no-repeat;
- position: absolute;
- left: 75%;
- top: 50%;
+    width: 20%;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 75%;
+    top: 50%;
 }
-#northamerica-flag{
+
+#northamerica-flag {
     position: absolute;
     left: 10%;
     top: 15%;
     z-index: 1;
 }
-#southamerica-flag{
+
+#southamerica-flag {
     position: absolute;
     left: 34%;
     top: 50%;
     z-index: 1;
 }
-#europe-flag{
+
+#europe-flag {
     position: absolute;
     left: 50%;
     top: 33%;
     z-index: 1;
 }
-#asia-flag{
+
+#asia-flag {
     position: absolute;
     left: 70%;
- top: 5%;
-    z-index: 1;
-}
-#australia-flag{
-    position: absolute;
-    left: 80%;
- top: 50%;
+    top: 5%;
     z-index: 1;
 }
 
+#australia-flag {
+    position: absolute;
+    left: 80%;
+    top: 50%;
+    z-index: 1;
+}
 
 /* ----------------------------------section 05 ends---------------------------------------- ---------------------------------------------------------------------------------------------*/
 
+
+
+
+
+
+
+
+
+
 /* ----------------------------------section 06 starts---------------------------------------- ---------------------------------------------------------------------------------------------*/
 #section-six {
-    margin-top: 100px;
+    margin-top: 40%;
 }
 
 .flag-with-text {
@@ -345,7 +379,6 @@ nav {
     gap: 0%;
     margin: auto;
     width: 50%;
-
 }
 
 .singleFlag {
@@ -390,6 +423,13 @@ nav {
 
 
 
+
+
+
+
+
+
+
 /* for mobile responsiveness */
 @media screen and (max-width: 768px) {
 
@@ -414,6 +454,7 @@ nav {
         gap: 2%;
         height: 100%;
     }
+
     .step-one-icons {
         display: flex;
         justify-content: center;
@@ -459,76 +500,94 @@ nav {
         height: 50%;
     }
 
+
+
+
+
+    
     /* section 5 */
-    .world-map{
+    .world-map {
         position: relative;
         height: 60vh;
-        padding-right: 50% ;
+        padding-right: 50%;
         margin-top: 100px;
     }
-    #us-map{
-left: 5%;
-height: 25%;
+
+    #us-map {
+        left: 5%;
+        height: 25%;
     }
-    #canada-map{
+
+    #canada-map {
         height: 17%;
-    width: 25%;
-    left: 20%;
-    top: 4%;
+        width: 25%;
+        left: 20%;
+        top: 4%;
     }
-    #southamerica-map{
+
+    #southamerica-map {
         height: 15%;
         width: 15%;
         left: 20%;
         top: 25%;
     }
-    #southamerica-flag{
+
+    #southamerica-flag {
         left: 27%;
         top: 25%
     }
-    #europe-map{
+
+    #europe-map {
         height: 15%;
-     width: 15%;
-     left: 42%;
-     top: 15%;
+        width: 15%;
+        left: 42%;
+        top: 15%;
     }
-    #europe-flag{
+
+    #europe-flag {
         left: 50%;
         top: 15%;
     }
+
     #asia-map {
         height: 25%;
         width: 45%;
         left: 40%;
         top: 0%;
-       }
-       #asia-flag{
+    }
+
+    #asia-flag {
         left: 60%;
-     top: 5%; 
+        top: 5%;
     }
-    #australia-map{
+
+    #australia-map {
         height: 20%;
-     width: 20%;
-     left: 65%;
-     top: 25%;
+        width: 20%;
+        left: 65%;
+        top: 25%;
     }
-    #australia-flag{
+
+    #australia-flag {
         position: absolute;
         left: 75%;
-     top: 25%;
+        top: 25%;
         z-index: 1;
     }
+
+
+
+
+
 
     /* section 6 */
     .dot-with-text {
         display: flex;
         justify-items: center;
         align-items: center;
-        /* gap: 10%; */
         margin-top: 50px;
-        /* margin-right: 20%; */
-    
     }
+
     .rectangle {
         border: 1px solid black;
         max-width: fit-content;
@@ -539,6 +598,6 @@ height: 25%;
     }
 
 
-    
+
 
 }

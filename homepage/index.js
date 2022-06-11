@@ -72,5 +72,5 @@ document.getElementById('chart-icon').addEventListener('click', function (e) {
 
 
 
-// section 5 
+
 
