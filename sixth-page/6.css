@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    border: 0;
+}
+
+body {
+    background-color: #FBFBFD;
+    overflow-x: hidden;
+}
+
+nav {
+    height: 80px;
+    width: 50%;
+    background-color: #e6e6e6;
+    border-radius: 50px;
+    margin: auto;
+    margin-top: 5px;
+    box-shadow: 2px 1px 10px;
+}
+
+.nav-icon-collection {
+    display: flex;
+    justify-content: center;
+    gap: 8%;
+    height: 100%;
+}
+
+.nav-icon {
+    width: auto;
+    height: 40%;
+}
+
+img {
+    height: 10%;
+    width: 10%;
+    margin: 20px 20px;
+    border-radius: 10px;
+}
+
+
+/* ----------------------------------section 03 starts---------------------------------------- ---------------------------------------------------------------------------------------------*/
+/* #section-three {
+    margin-top: 20%;
+} */
+
+.navbar {
+    margin-bottom: 5%;
+}
+
+.flag-with-map {
+    margin: 8%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+}
+
+.flag{
+    width: 50%;
+    border-radius: 2%;
+}
+#left-arrow {
+    width: 4%;
+    position: absolute;
+    left: 0%;
+    top: 60%;
+}
+#right-arrow {
+    width: 4%;
+    position: absolute;
+    left: 95%;
+    top: 60%;
+}
+
+/* ----------------------------------section 03 ends---------------------------------------- ---------------------------------------------------------------------------------------------*/
+
+
+
+@media screen and (max-width: 768px)  {
+    nav {
+        height: 60px;
+        width: 100%;
+        background-color: #e6e6e6;
+        border-radius: 50px;
+        margin: auto;
+        margin-top: 5px;
+        box-shadow: 2px 1px 10px;
+    }
+    #left-arrow {
+        width: 4%;
+        height: 2%;
+        position: absolute;
+        left: 0%;
+        top: 40%;
+    }
+
+    #right-arrow {
+        width: 4%;
+        height: 2%;
+        position: absolute;
+        left: 90%;
+        top: 40%;
+    }
+    .flag-details {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        margin-top: 50px;
+        gap: 2%;
+    }
+
+    div#flag {
+        order: 1
+    }
+
+    div#flag-text {
+        order: 2
+    }
+
+    .flag {
+        width: 90%;
+        height: 50%;
+    }
+
+    .flag-with-map {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        align-items: center;
+    }
+
+    div#flag {
+        order: 1
+    }
+
+    div#map {
+        order: 2
+    }
+
+    .flag {
+        width: 90%;
+        height: 50%;
+    }
+}

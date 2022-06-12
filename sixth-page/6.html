@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="6.css">
+    <title>Document</title>
+</head>
+<body>
+    
+    <!-- section 03 starts -->
+    <section id="section-three">
+        <nav class="navbar">
+            <div class="nav-icon-collection">
+                <img class="nav-icon" src="../images/worldicon.png" alt="world icon">
+                <img class="nav-icon" src="../images/customerBlack.png" alt="customer icon">
+                <img class="nav-icon" src="../images/kpiblack.png" alt="kpi icon">
+                <img class="nav-icon" src="../images/graphblack.png" alt="graph icon">
+            </div>
+        </nav>
+
+
+       
+
+
+
+
+        <!-- map starts -->
+        <div class="flag-with-map">
+            <div id="map" class="map">
+                <div id="googleMap" style="width:100%;height:400px;"></div>
+
+                <script>
+                    function myMap() {
+                        var mapProp = {
+                            center: new google.maps.LatLng(51.508742, -0.120850),
+                            zoom: 15,
+                        };
+                        var map = new google.maps.Map(document.getElementById("googleMap"), mapProp);
+                    }
+                </script>
+
+                <script
+                    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDdnUI5oF_hX399nhFPaVz3D-jxkv0ullM&callback=myMap"></script>
+            </div>
+            <!-- map ends -->
+
+
+
+
+            <div id="flag">
+                <img class="flag" src="../images/flag.png" alt="singleFlagImg">
+            </div>
+        </div>
+
+
+
+
+
+          <!-- arrow section -->
+          <div>
+            <a href="../fifth-page/5.html">
+                <img id="left-arrow" src="../images/left-arrow.png" alt="left arrow">
+            </a>
+            <a href="../seventh-page/7.html">
+                <img src="../images/right-arrow.png" alt="right arrow" id="right-arrow">
+            </a>
+        </div>
+    </section>
+    <!-- section 03 ends -->
+</body>
+</html>

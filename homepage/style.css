@@ -87,6 +87,19 @@ img {
     gap: 7%;
 }
 
+/* #left-arrow {
+    width: 4%;
+    position: absolute;
+    left: 0%;
+    top: 60%;
+} */
+#right-arrow {
+    width: 4%;
+    position: absolute;
+    left: 90%;
+    top: 60%;
+}
+
 /* ----------------------------------section 01 ends---------------------------------------- ---------------------------------------------------------------------------------------------*/
 
 
@@ -99,344 +112,61 @@ img {
 
 
 
-/* ----------------------------------section 02 starts---------------------------------------- ---------------------------------------------------------------------------------------------*/
-#section-two {
-    margin-top: 20%;
-}
 
-.flag-details {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    margin-top: 50px;
-    gap: 2%;
-    align-items: center;
-}
 
-.flag {
-    width: 40%;
-    height: 50%;
-}
 
-.flag-text {
-    text-align: right;
-}
-
-.text-gray {
-    color: gray;
-}
-
-.blue-dot {
-    height: 15px;
-    width: 15px;
-    background-color: blue;
-    border-radius: 50%;
-    display: inline-block;
-    margin-left: 20px;
-}
-
-.yellow-dot {
-    height: 15px;
-    width: 15px;
-    background-color: yellow;
-    border-radius: 50%;
-    display: inline-block;
-    margin-left: 20px;
-}
-
-.green-dot {
-    height: 15px;
-    width: 15px;
-    background-color: green;
-    border-radius: 50%;
-    display: inline-block;
-    margin-left: 20px;
-}
-
-.orange-dot {
-    height: 15px;
-    width: 15px;
-    background-color: orange;
-    border-radius: 50%;
-    display: inline-block;
-    margin-left: 20px;
-}
-
-.pink-dot {
-    height: 15px;
-    width: 15px;
-    background-color: pink;
-    border-radius: 50%;
-    display: inline-block;
-    margin-left: 20px;
-}
-
-.cyan-dot {
-    height: 15px;
-    width: 15px;
-    background-color: cyan;
-    border-radius: 50%;
-    display: inline-block;
-    margin-left: 20px;
-}
-
-.light-blue-dot {
-    height: 15px;
-    width: 15px;
-    background-color: lightblue;
-    border-radius: 50%;
-    display: inline-block;
-    margin-left: 20px;
-}
-
-.light-cyan-dot {
-    height: 15px;
-    width: 15px;
-    background-color: lightcyan;
-    border-radius: 50%;
-    display: inline-block;
-    margin-left: 20px;
-}
-
-.light-green-dot {
-    height: 15px;
-    width: 15px;
-    background-color: lightgreen;
-    border-radius: 50%;
-    display: inline-block;
-    margin-left: 20px;
-}
-
-/* ----------------------------------section 02 ends---------------------------------------- ---------------------------------------------------------------------------------------------*/
-
-
-
-
-
-
-
-
-/* ----------------------------------section 03 starts---------------------------------------- ---------------------------------------------------------------------------------------------*/
-#section-three {
-    margin-top: 20%;
-}
-
-.navbar {
-    margin-bottom: 5%;
-}
-
-.flag-with-map {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    align-items: center;
-}
-
-/* ----------------------------------section 03 ends---------------------------------------- ---------------------------------------------------------------------------------------------*/
-
-
-
-
-
-
-
-
-
-
-/* ----------------------------------section 04 starts---------------------------------------- ---------------------------------------------------------------------------------------------*/
-#section-four {
-    margin-top: 50%;
-}
-
-/* ----------------------------------section 04 ends---------------------------------------- ---------------------------------------------------------------------------------------------*/
-
-
-
-
-
-
-
-
-
-/* ----------------------------------section 05 ends---------------------------------------- ---------------------------------------------------------------------------------------------*/
-#section-five {
-    margin: 50% 0;
-}
-
-.world-map {
-    position: relative;
-    height: 100vh;
-}
-
-#northamerica-map {
-    height: 50%;
-    width: 25%;
-    background-repeat: no-repeat;
-    position: absolute;
-    left: 10%;
-    top: 10%;
-}
-
-#canada-map {
-    height: 30%;
-    width: 25%;
-    background-repeat: no-repeat;
-    position: absolute;
-    left: 25%;
-    top: 0px;
-}
-
-#southamerica-map {
-    height: 30%;
-    width: 15%;
-    background-repeat: no-repeat;
-    position: absolute;
-    left: 28%;
-    top: 50%;
-}
-
-#europe-map {
-    height: 35%;
-    width: 25%;
-    background-repeat: no-repeat;
-    position: absolute;
-    left: 42%;
-    top: 30%;
-}
-
-#asia-map {
-    height: 50%;
-    width: 50%;
-    background-repeat: no-repeat;
-    position: absolute;
-    left: 45%;
-    top: 0%;
-}
-
-#australia-map {
-    height: 20%;
-    width: 20%;
-    background-repeat: no-repeat;
-    position: absolute;
-    left: 75%;
-    top: 50%;
-}
-
-#northamerica-flag {
-    position: absolute;
-    left: 10%;
-    top: 15%;
-    z-index: 1;
-}
-
-#southamerica-flag {
-    position: absolute;
-    left: 34%;
-    top: 50%;
-    z-index: 1;
-}
-
-#europe-flag {
-    position: absolute;
-    left: 50%;
-    top: 33%;
-    z-index: 1;
-}
-
-#asia-flag {
-    position: absolute;
-    left: 70%;
-    top: 5%;
-    z-index: 1;
-}
-
-#australia-flag {
-    position: absolute;
-    left: 80%;
-    top: 50%;
-    z-index: 1;
-}
-
-/* ----------------------------------section 05 ends---------------------------------------- ---------------------------------------------------------------------------------------------*/
-
-
-
-
-
-
-
-
-
-
-/* ----------------------------------section 06 starts---------------------------------------- ---------------------------------------------------------------------------------------------*/
-#section-six {
-    margin-top: 40%;
-}
-
-.flag-with-text {
-    display: flex;
-    flex-direction: column;
-    justify-items: center;
-    align-items: center;
-    gap: 0%;
-    margin: auto;
-    width: 50%;
-}
-
-.singleFlag {
-    width: 50%;
-    height: 80%;
-    margin: auto;
-}
-
-.rectangle {
-    font-family: 'somar', sans-serif;
-    font-weight: bold;
-    border: 1px solid black;
-    max-width: fit-content;
-    padding: 5px 10px;
-    margin-bottom: 10px;
-    margin-top: 10px;
-}
-
-.dot-with-text {
-    display: flex;
-    justify-items: center;
-    align-items: center;
-    gap: 10%;
-    margin-top: 50px;
-    margin-right: 20%;
-
-}
-
-.flex {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-items: center;
-}
-
-/* ----------------------------------section 06 ends---------------------------------------- ---------------------------------------------------------------------------------------------*/
-
-
-/* ----------------------------------section 07 starts---------------------------------------- ---------------------------------------------------------------------------------------------*/
+/* ----------------------------------section 07 starts--------------------------*/
 
 #section-seven {
-    margin : 20% 0;
     position: relative;
+    margin-top: 0;
 }
-.asia-map{
-    width :90vh;
+
+.asia-map {
+    width: 90vh;
     height: 50vh;
     margin: 5% 0 0 25%;
 }
-.asia-flag{
-    position : absolute;
+
+.asia-flag {
+    position: absolute;
+    height: 20%;
+    width: 10%;
     right: 40%;
-    top: 50%;
+    top: 20%;
     z-index: 1;
 }
 
-/* ----------------------------------section 7 ends---------------------------------------- ---------------------------------------------------------------------------------------------*/
-
+#left-arrow {
+    width: 4%;
+    position: absolute;
+    left: 0%;
+    top: 60%;
+}
+#right-arrow {
+    width: 4%;
+    position: absolute;
+    left: 95%;
+    top: 60%;
+}
+.flags-with-name{
+    display: flex;
+    gap: 5px;
+    margin: auto;
+    padding-left: 5%;
+}
+.flags-with-name img{
+    width: 60%;
+    height: 40%;
+}
+.rectangle {
+    border: 1px solid black;
+    max-width: fit-content;
+    padding: 2px 2px;
+    margin: auto;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
 
 
 
@@ -468,6 +198,7 @@ img {
 
     nav {
         width: 100%;
+        height: 10%;
     }
 
     .nav-icon-collection {
@@ -483,120 +214,22 @@ img {
         gap: 2%;
     }
 
-    .flag-details {
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-        margin-top: 50px;
-        gap: 2%;
+    #right-arrow {
+        width: 4%;
+        height: 3%;
+        position: absolute;
+        left: 90%;
+        top: 40%;
     }
 
-    div#flag {
-        order: 1
-    }
 
-    div#flag-text {
-        order: 2
-    }
-
-    .flag {
-        width: 90%;
-        height: 50%;
-    }
-
-    .flag-with-map {
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-        align-items: center;
-    }
-
-    div#flag {
-        order: 1
-    }
-
-    div#map {
-        order: 2
-    }
-
-    .flag {
-        width: 90%;
-        height: 50%;
-    }
 
 
 
 
 
     
-    /* section 5 */
-    .world-map {
-        position: relative;
-        height: 60vh;
-        padding-right: 50%;
-        margin-top: 100px;
-    }
-
-    #us-map {
-        left: 5%;
-        height: 25%;
-    }
-
-    #canada-map {
-        height: 17%;
-        width: 25%;
-        left: 20%;
-        top: 4%;
-    }
-
-    #southamerica-map {
-        height: 15%;
-        width: 15%;
-        left: 20%;
-        top: 25%;
-    }
-
-    #southamerica-flag {
-        left: 27%;
-        top: 25%
-    }
-
-    #europe-map {
-        height: 15%;
-        width: 15%;
-        left: 42%;
-        top: 15%;
-    }
-
-    #europe-flag {
-        left: 50%;
-        top: 15%;
-    }
-
-    #asia-map {
-        height: 25%;
-        width: 45%;
-        left: 40%;
-        top: 0%;
-    }
-
-    #asia-flag {
-        left: 60%;
-        top: 5%;
-    }
-
-    #australia-map {
-        height: 20%;
-        width: 20%;
-        left: 65%;
-        top: 25%;
-    }
-
-    #australia-flag {
-        position: absolute;
-        left: 75%;
-        top: 25%;
-        z-index: 1;
-    }
-
+   
 
 
 
