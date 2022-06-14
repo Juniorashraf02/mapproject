@@ -244,6 +244,7 @@ img {
         position: absolute;
         left: 0%;
         top: 40%;
+        margin-left: 10px;
     }
     #right-arrow {
         width: 4%;
@@ -251,6 +252,7 @@ img {
         position: absolute;
         left: 90%;
         top: 40%;
+        padding-right: 100px;
     }
 
 }

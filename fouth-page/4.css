@@ -216,6 +216,8 @@ img {
         position: absolute;
         left: 0%;
         top: 40%;
+        margin-left: 0;
+
     }
 
     #right-arrow {
@@ -224,17 +226,22 @@ img {
         position: absolute;
         left: 90%;
         top: 40%;
+        margin-right: 10%;
     }
     .dot-with-text {
-        display: block;
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
         justify-items: center;
         align-items: center;
         gap: 10%;
         margin-top: 50px;
-        margin-right: 20%;
+        margin-right: 45%;
     }
     .singleFlag{
         width: 100%;
+    }
+    .rectangle{
+        font-size: 8px;
     }
 
     

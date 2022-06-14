@@ -106,7 +106,7 @@ img {
     /* section 5 */
     nav {
         height: 60px;
-        width: 100%;
+        width: 95%;
         background-color: #e6e6e6;
         border-radius: 50px;
         margin: auto;
@@ -125,7 +125,7 @@ img {
         height: 5%;
         width: 20%;
         right: 10%;
-        top: 5%;
+        top: 15%;
         z-index: 1;
     }
 
@@ -146,13 +146,14 @@ img {
     }
 
     .flags-with-name{
-        display: block;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
         gap: 5px;
-        margin: 0 0 0 40px;
-        padding-left: 10%;
+        margin: 0 0 0 0px;
+        padding-right: 10px;
     }
     .flags-with-name img{
-        width: 60%;
+        width: 80%;
         height: 40%;
     }
 
