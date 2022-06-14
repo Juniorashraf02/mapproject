@@ -143,12 +143,15 @@ img {
     position: absolute;
     left: 0%;
     top: 60%;
+    position: fixed;
 }
 #right-arrow {
     width: 4%;
     position: absolute;
     left: 95%;
     top: 60%;
+    position: fixed;
+
 }
 
 /* ----------------------------------section 05 ends----------------------------------*/
@@ -239,20 +242,21 @@ img {
     }
 
     #left-arrow {
-        width: 4%;
-        height: 3%;
+        width: 5%;
+        height: 4%;
         position: absolute;
         left: 0%;
         top: 40%;
-        margin-left: 10px;
+    position: fixed;
     }
+
     #right-arrow {
-        width: 4%;
-        height: 3%;
+        width: 5%;
+        height: 4%;
         position: absolute;
-        left: 90%;
+        left: 88%;
         top: 40%;
-        padding-right: 100px;
+    position: fixed;
     }
 
 }

@@ -181,12 +181,16 @@ img {
     position: absolute;
     left: 0%;
     top: 60%;
+    position: fixed;
+
 }
 #right-arrow {
     width: 4%;
     position: absolute;
     left: 95%;
     top: 60%;
+    position: fixed;
+
 }
 
 /* ------------------------section 06 ends--------------------------------------------*/
@@ -211,22 +215,26 @@ img {
 
 
     #left-arrow {
-        width: 4%;
-        height: 2%;
+        width: 5%;
+        height: 4%;
         position: absolute;
         left: 0%;
         top: 40%;
         margin-left: 0;
+    position: fixed;
+
 
     }
 
     #right-arrow {
-        width: 4%;
-        height: 2%;
+        width: 5%;
+        height: 4%;
         position: absolute;
-        left: 90%;
+        left: 88%;
         top: 40%;
         margin-right: 10%;
+    position: fixed;
+
     }
     .dot-with-text {
         display: grid;
