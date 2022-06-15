@@ -7,6 +7,9 @@ body {
     background-color: #FBFBFD;
 }
 
+
+
+/* navbar starts */
 nav {
     height: 80px;
     width: 50%;
@@ -34,14 +37,11 @@ img {
     margin: 20px 20px;
     border-radius: 10px;
 }
+/* navbar ends */
 
 
 
-
-/* ----------------------------------section 05 starts--------------------------------*/
-/* #section-five {
-    margin: 0;
-} */
+/*----------------------------- page 2 css starts -----------------------------  */
 
 .world-map {
     position: relative;
@@ -154,7 +154,6 @@ img {
 
 }
 
-/* ----------------------------------section 05 ends----------------------------------*/
 
 
 
@@ -162,7 +161,7 @@ img {
 
 /* responsiveness for mobile */
 @media screen and (max-width: 768px) {
-     /* section 5 */
+     
      nav {
         height: 60px;
         width: 100%;
@@ -258,5 +257,4 @@ img {
         top: 40%;
     position: fixed;
     }
-
 }

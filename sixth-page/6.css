@@ -8,6 +8,8 @@ body {
     overflow-x: hidden;
 }
 
+
+/* navbar starts */
 nav {
     height: 80px;
     width: 50%;
@@ -36,22 +38,24 @@ img {
     margin: 20px 20px;
     border-radius: 10px;
 }
+/* navbar ends */
 
 
-/* ----------------------------------section 03 starts---------------------------------------- ---------------------------------------------------------------------------------------------*/
-/* #section-three {
-    margin-top: 20%;
-} */
 
-.navbar {
-    margin-bottom: 5%;
-}
+
+
 
 .flag-with-map {
     margin: 8%;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
+    gap: 5%;
+}
+.map-image{
+    width: 100%;
+    /* border: 1px solid black; */
+    /* box-shadow: 5px 5px 3px gray; */
 }
 
 .flag{
@@ -75,10 +79,10 @@ img {
 
 }
 
-/* ----------------------------------section 03 ends---------------------------------------- ---------------------------------------------------------------------------------------------*/
 
 
 
+/* responsive for mobile */
 @media screen and (max-width: 768px)  {
     nav {
         height: 60px;
@@ -132,6 +136,9 @@ img {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
         align-items: center;
+    }
+    .map-image{
+        width: 40vh;
     }
 
     div#flag {

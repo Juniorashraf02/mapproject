@@ -8,6 +8,7 @@ body {
     overflow-x: hidden;
 }
 
+/* navbar starts */
 nav {
     height: 80px;
     width: 50%;
@@ -36,9 +37,11 @@ img {
     margin: 20px 20px;
     border-radius: 10px;
 }
+/* navbar ends */
 
 
-/* ----------------------------------section 02 starts---------------------------------------- ---------------------------------------------------------------------------------------------*/
+
+
 #section-two {
     position:relative;
 }
@@ -59,7 +62,7 @@ img {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     margin-top: 50px;
-    gap: 2%;
+    gap: 1%;
     align-items: center;
 }
 
@@ -70,6 +73,11 @@ img {
 
 .flag-text {
     text-align: right;
+    font-family: somar;
+    font-size: 20px;
+}
+.flag-text p{
+    line-height: 5px;
 }
 
 .text-gray {
@@ -176,7 +184,7 @@ img {
 
 
 
-/* ---------------section 02----------------------ends------------------------------------------*/
+
 
 
 
@@ -184,7 +192,7 @@ img {
 /* responsiveness for mobile */
 @media screen and (max-width: 768px) {
 
-    /* section 5 */
+  
     nav {
         height: 60px;
         width: 100%;
@@ -223,6 +231,13 @@ img {
         gap: 2%;
         align-items: center;
         padding: 7%;
+    }
+    .flag-text {
+        
+        font-size: 10px;
+    }
+    .flag-text p{
+        line-height: 10px;
     }
 
     div#flag {

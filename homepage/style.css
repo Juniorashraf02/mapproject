@@ -8,21 +8,25 @@ body {
     overflow-x: hidden;
 }
 
+
+
+/* navbar css starts */
+
 nav {
-    height: 80px;
     width: 50%;
-    background-color: #e6e6e6;
-    border-radius: 50px;
+    height: 80px;
     margin: auto;
     margin-top: 50px;
+    border-radius: 50px;
     box-shadow: 2px 1px 10px;
+    background-color: #e6e6e6;
 }
 
 .nav-icon-collection {
-    display: flex;
-    justify-content: center;
     gap: 8%;
     height: 100%;
+    display: flex;
+    justify-content: center;
 }
 
 .nav-icon {
@@ -30,8 +34,11 @@ nav {
     height: 40%;
 }
 
+/* navbar css ends */
 
-/* ----------------------------------section 01 starts---------------------------------------- ---------------------------------------------------------------------------------------------*/
+
+
+/* page 1 body starts */
 .pic-one {
     height: 30%;
     width: 30%;
@@ -49,16 +56,31 @@ nav {
 .heading {
     width: 25%;
     height: 25%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-a {
-    color: white;
-}
+
 
 .icons-collection {
+    display: flex;
     text-align: center;
     margin-top: 30px;
     padding-right: 50px;
+}
+
+.icons-collection img {
+    width: 40%;
+    height: 60%;
+}
+
+.rectangle {
+    max-width: fit-content;
+    font-family: somar;
+    font-size: 20px;
+    text-align: center;
+    margin-left: 50%;
 }
 
 .icons {
@@ -72,28 +94,27 @@ img {
     border-radius: 10px;
 }
 
-.bottom-tittle {
-    text-align: center;
-    margin-top: 80px;
-}
-
 #step-one img {
     height: 35px;
     width: 40px;
 }
-
 .step-one-icons {
     display: flex;
     justify-content: center;
     gap: 7%;
 }
 
-/* #left-arrow {
-    width: 4%;
-    position: absolute;
-    left: 0%;
-    top: 60%;
-} */
+
+.bottom-tittle {
+    color: goldenrod;
+    font-family: somar;
+    font-style: bold;
+    font-size: 24px;
+    text-align: center;
+    margin-top: 80px;
+
+}
+
 #right-arrow {
     width: 4%;
     position: absolute;
@@ -101,80 +122,6 @@ img {
     top: 60%;
     position: fixed;
 }
-/* ----------------------------------section 01 ends---------------------------------------- ---------------------------------------------------------------------------------------------*/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* ----------------------------------section 07 starts--------------------------*/
-
-/* #section-seven {
-    position: relative;
-    margin-top: 0;
-}
-
-.asia-map {
-    width: 90vh;
-    height: 50vh;
-    margin: 5% 0 0 25%;
-}
-
-.asia-flag {
-    position: absolute;
-    height: 20%;
-    width: 10%;
-    right: 40%;
-    top: 20%;
-    z-index: 1;
-}
-
-#left-arrow {
-    width: 4%;
-    position: absolute;
-    left: 0%;
-    top: 60%;
-}
-#right-arrow {
-    width: 4%;
-    position: absolute;
-    left: 95%;
-    top: 60%;
-}
-.flags-with-name{
-    display: flex;
-    gap: 5px;
-    margin: auto;
-    padding-left: 5%;
-}
-.flags-with-name img{
-    width: 60%;
-    height: 40%;
-}
-.rectangle {
-    border: 1px solid black;
-    max-width: fit-content;
-    padding: 2px 2px;
-    margin: auto;
-    margin-bottom: 10px;
-    margin-top: 10px;
-} */
-
-
-
-
-
-
-
 
 
 
@@ -190,7 +137,6 @@ img {
         text-align: center;
         margin-top: 30px;
         padding-right: 0px;
-
     }
 
     .icons {
@@ -218,43 +164,36 @@ img {
     #right-arrow {
         width: 5%;
         height: 4%;
-        position: absolute ;
+        position: absolute;
         left: 88%;
         top: 40%;
         position: fixed;
     }
 
 
-
-
-
-
+    .icons-collection img {
+        width: 50%;
+        height: 30%;
+    }
 
     
-   
-
-
-
-
-
-    /* section 6 */
-    .dot-with-text {
-        display: flex;
-        justify-items: center;
-        align-items: center;
-        margin-top: 50px;
-    }
-
     .rectangle {
-        border: 1px solid black;
-        max-width: fit-content;
-        padding: 2px 2px;
-        margin-left: 0;
-        margin-bottom: 10px;
-        margin-top: 10px;
+        font-size: 10px;
+        text-align: center;
+        margin-left: 30%;
     }
+    .bottom-tittle {
+        width: 50%;
+        height: 25%;
+        font-size: 12px;
+        display: block;
+        margin: 20% auto;
+    }
+
 
 
 
 
 }
+
+/* page 1 body ends */

@@ -8,6 +8,8 @@ body {
     overflow-x: hidden;
 }
 
+
+/* navbar starts */
 nav {
     height: 80px;
     width: 50%;
@@ -36,6 +38,7 @@ img {
     margin: 20px 20px;
     border-radius: 10px;
 }
+/* nabar ends */
 
 #left-arrow {
     width: 4%;
@@ -53,6 +56,11 @@ img {
     position: fixed;
 
 }
+.flag {
+    width: 90%;
+    height: 70%;
+    margin: 3%;
+}
 
 .map{
     margin-top: 5%;
@@ -64,7 +72,7 @@ img {
 /* responsiveness for mobile */
 @media screen and (max-width: 768px) {
 
-    /* section 5 */
+  
     nav {
         height: 60px;
         width: 100%;
@@ -85,6 +93,10 @@ img {
         top: 40%;
     position: fixed;
 
+    }
+    .flag {
+        width: 90%;
+        height: 40%;
     }
 
     /* #right-arrow {
